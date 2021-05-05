@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soot & Root</title>
+
+    <link rel="shortcut icon" href="images/icon_a.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    
+
+     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- STYLES -->
+    <!-- <link href="styles/normalize.css" rel="stylesheet" /> -->
+    <link href="styles/main.css" rel="stylesheet" />
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0 shadow" id="scrollAction">
+
+      <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+          <img src="images/newlogosootroot.svg" id="logo" alt="SOOT & ROOT logo"/></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg"
+              width="50" 
+              height="50" 
+              fill="#ffffff" 
+              class="bi bi-list" 
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+           </span>
+        </button>
+       
+        <div class="collapse navbar-collapse show justify-content-end" id="navbarSupportedContent">
+        
+          <ul class="nav navbar-nav text-end">
+            <li class="nav-item">
+              <a class="nav-link"  href="plants.html" >PLANTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="soil.html">SOIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pots.html">POTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html"><img src="images/icons/cart3.svg" alt="cart" id="cart"></a>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  </div>
+</div>
+
+<div class="row text-center g-0 justify-content-center" style="margin-top: 100px; margin-bottom: 10px;">
+  <h1>Contact Us</h1>
+  <p class="fs-5">Do you have any questions or concerns?<br>If so, please use the form below to contact us.</p>
+ 
+      <div class="row justify-content-center">
+  
+        <div class="col-md-6 col-md-offset-3 pb-5">
+          
+            
+          <form id="contact-form" method="post" action="contact.php">
+      
+              <div class="controls">
+      
+              <div class="row text-start">
+      
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="form_name">
+                        Your Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+      
+                <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_email">Email *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+      
+            <div class="row text-start">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label for="form_need">Please specify your need *</label>
+                  <input id="form_need" name="need" class="form-control" placeholder="What can we help you with? *" required="required" data-error="Please specify your need.">
+                    <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+              </div>
+            <div class="row text-start">
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Your Message here *" rows="7" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+            </div>
+              <div class="row g-0 text-start" style="color: white;">
+                <p>These fields are required. *</p>
+              <div class="col-md-12">
+                <input type="submit" class="btn-send page-link rounded-2" value="Send message" style="width: 261px;">
+            </div>
+          </div>
+          <div class="messages"></div>
+              </div>
+        </form>
+    </div>
+        <!-- </div> -->
+       
+        <div class="row justify-content-center text-center">
+    ​
+      <div class="col">
+        <p class="fs-2 p-1">Returns</p>
+        <p class="fs-5 p-1" id="contactText">It can take up to 25 days for an item to reach us once you return it. Once the item is received at our fulfillment center, it takes 2 business days for the refund to be processed and 3-5 business days for the refund amount to show up in your account.<br><br>Your return label will require you to return the item at your own expense. Soot & Root will automatically refund up to $20 for return postage costs on receipt of the item. If your return postage costs exceed $20, you may contact our Customer Service Center to request a refund of the remaining postage cost. If you return a defective, damaged or incorrect item, you’ll be refunded the full postage cost, as well as your Import Fees Deposit, once your return is processed.
+          </p>
+    
+    
+    <p class="fs-2">Shipping Policy</p>
+      <p class="fs-5 p-1" id="contactText1">Soot & Root offers FREE shipping on all orders over $20. Orders under $20 will be priced for shipping according to the postage rates in your state or country.</p>
+    </div>
+    ​
+      </div>
+    
+    
+    ​
+    ​
+</div>
+   
+              <!-- FOOTER -->
+    <nav class="navbar navbar-expand footer" style="background-color:#222b19;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col text-start">  
+                <p style="color: white; margin: 0px;">Soot & Root<br> PO BOX 555<br>Deno,CA 55555</p>
+                </div>
+               </div>
+              <div class="col text-end" style="margin: 0px;">
+                <ul class="text-end">
+                  <li>
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                  </li>
+                  <li>
+                  <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                  <li style="display: inline-block;">
+                  <img src="images/icons/facebook.svg" alt="facebook" class="fb">
+                  <img src="images/icons/instagram.svg" alt="facebook" class="ig">
+                  <img src="images/icons/twitter.svg" alt="facebook" class="tw">
+                  </li>
+                </ul>
+    </nav>
+    <div class="row g-0 text-center">
+        <p style="color: white;background-color:#222b19;margin: 0px;padding-bottom: 10px;"> &#169; 2021 Josh Roll </p>
+        </div>
+    </div>
+           
+</body>
+            
+                
+
+
+</div>
+ <!-- SCRIPT INFO -->
+
+
+ 
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="js/contact.js"></script>
+
+    <script>
+      const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarSupportedContent')
+    const bsCollapse = new bootstrap.Collapse(menuToggle)
+    navLinks.forEach((l) => {
+        l.addEventListener('click', () => { bsCollapse.toggle() })
+    });
+
+ 
+
+      </script>
+</body>
+
+</html>

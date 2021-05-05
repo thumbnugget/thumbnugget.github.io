@@ -1,0 +1,374 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Baskerville", serif;
+  font-size: 52px;
+  font-variant: normal;
+  color: #222b19;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  font-variant: normal;
+  color: #222b19;
+}
+p.h1,
+.display-4 {
+  font-family: "Baskerville", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: #222b19;
+}
+
+p.h2 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 32px;
+  font-style: bold;
+  font-variant: normal;
+  font-weight: 400;
+  color: #222b19;
+}
+
+a.h3:hover {
+  color: #3c8e6a;
+  text-decoration: none;
+}
+
+p.h3 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: bold;
+  font-variant: normal;
+  color: #222b19;
+}
+h5 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-variant: normal;
+  color: #222b19;
+}
+h6 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 16px;
+  font-variant: normal;
+  color: #222b19;
+}
+
+/* Navbar */
+#logo {
+  height: 72px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 16px;
+  background-color: #222b19;
+}
+
+.navbar {
+  background-color: #222b19;
+}
+.navbar-brand {
+  background-color: #222b19;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #222b19;
+  border-color: #222b19;
+}
+
+#hero1 {
+  color: white;
+  background-color: #222b19;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+.hero1a {
+  color: white;
+  text-decoration: none;
+}
+.hero1a:hover {
+  color: black;
+  text-decoration: none;
+}
+#hero2 {
+  color: white;
+  background-color: #222b19;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+.hero2a {
+  color: white;
+  text-decoration: none;
+}
+.hero2a:hover {
+  color: black;
+  text-decoration: none;
+}
+#hero3 {
+  color: white;
+  background-color: #222b19;
+  border: 2px solid white;
+  padding: 10px 21px;
+  transition: 0.3s ease-in-out;
+}
+.hero3a {
+  color: white;
+  text-decoration: none;
+}
+.hero3a:hover {
+  color: black;
+  text-decoration: none;
+}
+#hero1:hover {
+  color: black;
+  background-color: #69a242;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+#hero2:hover {
+  color: black;
+  background-color: #69a242;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+#hero3:hover {
+  color: black;
+  background-color: #69a242;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.footer .nav-link {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  color: white;
+}
+.footer .nav-link:hover {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+}
+
+#cart {
+  color: white;
+  height: 24px;
+  background-color: #222b19;
+}
+
+/* old css */
+
+/* Main */
+
+.card-text {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 16px;
+  font-style: bold;
+  font-variant: normal;
+  color: #222b19;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #222b19;
+  transition: 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  color: black;
+  background-color: #69a242;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: #222b19;
+  transition: 0.3s ease-in-out;
+}
+.btn-secondary:hover {
+  color: black;
+  background-color: #69a242;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-secondary:active {
+  color: white;
+  background-color: #222b19;
+  transition: 0.3s ease-in-out;
+  background-color: #69a242;
+}
+
+#cart2 {
+  display: none;
+}
+
+#cart {
+  color: white;
+  height: 30px;
+  background-color: #222b19;
+}
+
+#logo {
+  height: 72px;
+}
+
+.fb {
+  margin: 10px;
+}
+.ig {
+  margin: 10px;
+}
+
+.tw {
+  margin: 10px;
+}
+
+.aboutHero {
+  max-width: 1000px;
+  padding: 5px;
+}
+
+#addToCart {
+  color: white;
+  height: 20px;
+  background-color: #222b19;
+  padding: 0px 9px 4px 0px;
+}
+
+/* Footer */
+
+.footer-nav-link {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  font-size: 17px;
+  color: white;
+  padding: 0em 1.5rem 0 1.5rem;
+}
+
+.footer-nav-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#iconSun {
+  margin: 0 10px 2px 10px;
+}
+#iconWater {
+  margin: 0 10px 2px 10px;
+}
+#iconFlower {
+  margin: 0 10px 2px 10px;
+}
+#prodPrice {
+  margin-left: 20px;
+  font: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* [1] The container */
+
+.card {
+  width: 18rem;
+  border: none;
+}
+.card-text {
+  font-family: "Verdana", sans-serif;
+  font-variant: normal;
+  color: black;
+}
+
+.img-hover-zoom {
+  height: 300px;
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+#aboutText {
+  margin: 10px 80px;
+}
+#contactText {
+  margin: 10px 80px;
+}
+
+#contactText1 {
+  margin: 10px 80px;
+}
+
+/*content form*/
+input[type="submit"] {
+  background-color: #222b19;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: #69a242;
+  color: #222b19;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-warning {
+  color: white;
+  background-color: #222b19;
+  border-color: #111111;
+}
+
+#vl {
+  border-left: solid;
+  border-width: medium;
+  border-color: #222b19;
+}
+
+#iconFlower2 {
+  transition: 0.5s ease-in-out;
+  margin: 0px 10px 20px 10px;
+}
+
+#iconFlower2:hover {
+  width: 80px;
+  transition: 0.4s ease-in-out;
+}
+.filterDiv {
+  display: none;
+}
+.show {
+  display: block;
+}
