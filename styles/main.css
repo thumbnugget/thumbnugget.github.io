@@ -276,15 +276,6 @@ h6 {
   color: white;
 }
 
-#iconSun {
-  margin: 0 10px 2px 10px;
-}
-#iconWater {
-  margin: 0 10px 2px 10px;
-}
-#iconFlower {
-  margin: 0 10px 2px 10px;
-}
 #prodPrice {
   margin-left: 20px;
   font: 16px;
@@ -357,18 +348,33 @@ input[type="submit"]:hover {
   border-color: #222b19;
 }
 
-#iconFlower2 {
-  transition: 0.5s ease-in-out;
-  margin: 0px 10px 20px 10px;
-}
-
-#iconFlower2:hover {
-  width: 80px;
-  transition: 0.4s ease-in-out;
-}
 .filterDiv {
   display: none;
 }
 .show {
   display: block;
+}
+
+.iconSun {
+  margin: 0 10px 2px 10px;
+  width: 35px;
+}
+.iconWater {
+  margin: 0 10px 2px 10px;
+  width: 35px;
+}
+.iconFlower {
+  margin: 0 10px 2px 10px;
+  width: 35px;
+}
+
+.iconFlower2 {
+  width: 35px;
+  transition: 0.5s ease-in-out;
+  margin: 0px 10px 20px 10px;
+}
+
+.iconFlower2:hover {
+  width: 80px;
+  transition: 0.4s ease-in-out;
 }

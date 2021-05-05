@@ -65,7 +65,7 @@
               <a class="nav-link" href="soil.html">SOIL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pots.html">POTS</a>
+              <a class="nav-link" href="pots.html" style="color: #69a242;">POTS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">ABOUT</a>
@@ -84,8 +84,6 @@
         </div>
       </div>
   </nav>
-  </div>
-</div>
 
 <div class="row text-center g-0 justify-content-center" style="margin-top: 100px; margin-bottom: 10px;">
   <h1>Pots</h1>
@@ -100,15 +98,15 @@
     <h2>Pick Your Pot</h2>
   <div class="col" style="display: inline-block;">
 
-  <img src="images/icons/clay.svg" width="35px" id="iconFlower2" ><h3 style="display: inline-block;" id="smallThing">Clay</h3>
+  <img src="images/icons/clay.svg" alt="clay pot" class="iconFlower2" ><h3 style="display: inline-block;" >Clay</h3>
 </div>
   <div class="col" style="display: inline-block;">
 
-  <img src="images/icons/ceramic.svg" width="35px" id="iconFlower2"><h3 style="display: inline-block;" id="smallThing">Ceramic</h3>
+  <img src="images/icons/ceramic.svg" alt="ceramic pot" class="iconFlower2"><h3 style="display: inline-block;">Ceramic</h3>
 </div>
   <div class="col" style="display: inline-block;">
 
-  <img src="images/icons/metal.svg" width="35px" id="iconFlower2"><h3 style="display: inline-block;" id="smallThing">Metal</h3>
+  <img src="images/icons/metal.svg" alt="metal pot" class="iconFlower2"><h3 style="display: inline-block;">Metal</h3>
 </div>
 
 </div>
@@ -120,42 +118,27 @@
   <h2>Sort By:</h2>
 
   <div id="myBtnContainer justify-content-center">
-   
-
     <button class="btn btn-secondary border-0 active" onclick="filterSelection('all')"> Show all</button>
     <button class="btn btn-secondary border-0" onclick="filterSelection('clay')"> Clay</button>
     <button class="btn btn-secondary border-0" onclick="filterSelection('ceramic')"> Ceramic</button>
     <button class="btn btn-secondary border-0" onclick="filterSelection('metal')"> Metal</button>
   </div>
-  
-
-
-
 </div>
 
-<!-- <div class="row justify-content-center" style="margin: 10px 20px 0px 20px;"> -->
-
-    <!-- <div class="col m-1">
-  <h2>Best Selling Plants</h2>
-  <a href="#" class="btn btn-primary border-0">See All Varieties</a> -->
-
-  
 <div class="row justify-content-center">
-
-
 
   <div class="filterDiv clay col-md-3 col-sm-6 m-3" style="width: 18rem;">
             <div class="card" style="max-height: 530px;max-width: 18rem;">
             <div class="img-hover-zoom">
-            <img src="images/plants/clay-pot.jpg" class="card-img-top border-0 mb-4" alt="fuzzy" >
+            <img src="images/plants/clay-pot.jpg" class="card-img-top border-0 mb-4" alt="Clay Pot" >
             </div>
             <div class="card border-0">
             <div class="card-body text-start">
               <h5 class="card-title">Clay Pot</h5>
               <div class="d-flex  mb-2">
-                <img src="images/icons/clay.svg" width="35px" id="iconFlower">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconWater">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconSun">
+                <img src="images/icons/clay.svg" alt="Clay Pot" class="iconFlower">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconWater">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconSun">
                 </div>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-secondary border-0">Add to Cart</a><p class="h5" id="prodPrice">&nbsp$13.99</p>
@@ -168,15 +151,15 @@
           <div class="filterDiv ceramic col-md-3 col-sm-6 m-3" style="width: 18rem;">
             <div class="card" style="max-height: 530px;max-width: 18rem;">
             <div class="img-hover-zoom">
-              <img src="images/plants/ceramic-pot.jpg" class="card-img-top border-0 mb-4" alt="fuzzy" >
+              <img src="images/plants/ceramic-pot.jpg" class="card-img-top border-0 mb-4" alt="Ceramic Pot" >
             </div>
             <div class="card border-0">
             <div class="card-body text-start">
               <h5 class="card-title">Ceramic Pot</h5>
               <div class="d-flex  mb-2">
-                <img src="images/icons/ceramic.svg" width="35px" id="iconFlower">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconWater">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconSun">
+                <img src="images/icons/ceramic.svg" alt="Ceramic Pot" class="iconFlower">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconWater">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconSun">
                 </div>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-secondary border-0">Add to Cart</a><p class="h5" id="prodPrice">&nbsp$13.99</p>
@@ -188,15 +171,15 @@
           <div class="filterDiv metal col-md-3 col-sm-6 m-3" style="width: 18rem;">
             <div class="card" style="max-height: 530px;max-width: 18rem;">
             <div class="img-hover-zoom">
-              <img src="images/plants/metal-pots.jpg" class="card-img-top border-0 mb-4" alt="fuzzy" >
+              <img src="images/plants/metal-pots.jpg" class="card-img-top border-0 mb-4" alt="Metal Pot" >
             </div>
             <div class="card border-0">
             <div class="card-body text-start">
               <h5 class="card-title">Metal Pot</h5>
               <div class="d-flex  mb-2">
-                <img src="images/icons/metal.svg" width="35px" id="iconFlower">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconWater">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconSun">
+                <img src="images/icons/metal.svg" alt="Metal Pot" class="iconFlower">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconWater">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconSun">
                 </div>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-secondary border-0">Add to Cart</a><p class="h5" id="prodPrice">&nbsp$13.99</p>
@@ -208,15 +191,15 @@
           <div class="filterDiv ceramic col-md-3 col-sm-6 m-3" style="width: 18rem;">
             <div class="card" style="max-height: 530px;max-width: 18rem;">
             <div class="img-hover-zoom">
-              <img src="images/plants/ceramic-planters.jpg" class="card-img-top border-0 mb-4" alt="fuzzy" >
+              <img src="images/plants/ceramic-planters.jpg" class="card-img-top border-0 mb-4" alt="Ceramic Outdoor Pot" >
             </div>
             <div class="card border-0">
             <div class="card-body text-start">
               <h5 class="card-title">Ceramic Outdoor Pot</h5>
               <div class="d-flex  mb-2">
-                <img src="images/icons/ceramic.svg" width="35px" id="iconFlower">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconWater">
-                <img src="images/icons/blankWhite.svg" width="35px" id="iconSun">
+                <img src="images/icons/ceramic.svg" alt="Ceramic Outdoor Pot" class="iconFlower">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconWater">
+                <img src="images/icons/blankWhite.svg" alt="blank" class="iconSun">
                 </div>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-secondary border-0">Add to Cart</a><p class="h5" id="prodPrice">&nbsp$13.99</p>
@@ -247,12 +230,10 @@
                 </li>
                 <li style="display: inline-block;">
 <img src="images/icons/facebook.svg" alt="facebook" class="fb">
-<img src="images/icons/instagram.svg" alt="facebook" class="ig">
-<img src="images/icons/twitter.svg" alt="facebook" class="tw">
+<img src="images/icons/instagram.svg" alt="instagram" class="ig">
+<img src="images/icons/twitter.svg" alt="twitter" class="tw">
                 </li>
                 </ul>
-                <!-- </div> -->
-                    <!-- </div> -->
                   </nav>
               <div class="row g-0 text-center">
                 <p style="color: white;background-color:#222b19;margin: 0px;padding-bottom: 10px;"> &#169; 2021 Josh Roll </p>
